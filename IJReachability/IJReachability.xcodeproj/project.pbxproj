@@ -7,51 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D36964551A66EB2300B7E08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36964541A66EB2300B7E08D /* AppDelegate.swift */; };
-		D36964571A66EB2300B7E08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36964561A66EB2300B7E08D /* ViewController.swift */; };
-		D369645A1A66EB2300B7E08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36964581A66EB2300B7E08D /* Main.storyboard */; };
-		D369645C1A66EB2300B7E08D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D369645B1A66EB2300B7E08D /* Images.xcassets */; };
-		D369645F1A66EB2300B7E08D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D369645D1A66EB2300B7E08D /* LaunchScreen.xib */; };
-		D369646B1A66EB2300B7E08D /* IJReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369646A1A66EB2300B7E08D /* IJReachabilityTests.swift */; };
-		D36964761A66EC8200B7E08D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36964751A66EC8200B7E08D /* SystemConfiguration.framework */; };
-		D36964781A66ECD400B7E08D /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36964771A66ECD400B7E08D /* IJReachability.swift */; };
+		D3F290841BE3B037003DE290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F290831BE3B037003DE290 /* AppDelegate.swift */; };
+		D3F290861BE3B037003DE290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F290851BE3B037003DE290 /* ViewController.swift */; };
+		D3F290891BE3B037003DE290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F290871BE3B037003DE290 /* Main.storyboard */; };
+		D3F2908B1BE3B037003DE290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F2908A1BE3B037003DE290 /* Assets.xcassets */; };
+		D3F2908E1BE3B037003DE290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F2908C1BE3B037003DE290 /* LaunchScreen.storyboard */; };
+		D3F290991BE3B037003DE290 /* ReachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F290981BE3B037003DE290 /* ReachTests.swift */; };
+		D3F290A41BE3B07B003DE290 /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F290A31BE3B07B003DE290 /* Reach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D36964651A66EB2300B7E08D /* PBXContainerItemProxy */ = {
+		D3F290951BE3B037003DE290 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D36964471A66EB2300B7E08D /* Project object */;
+			containerPortal = D3F290781BE3B037003DE290 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D369644E1A66EB2300B7E08D;
-			remoteInfo = IJReachability;
+			remoteGlobalIDString = D3F2907F1BE3B037003DE290;
+			remoteInfo = Reach;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D369644F1A66EB2300B7E08D /* IJReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D36964531A66EB2300B7E08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D36964541A66EB2300B7E08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D36964561A66EB2300B7E08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D36964591A66EB2300B7E08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D369645B1A66EB2300B7E08D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D369645E1A66EB2300B7E08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D36964641A66EB2300B7E08D /* IJReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D36964691A66EB2300B7E08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D369646A1A66EB2300B7E08D /* IJReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IJReachabilityTests.swift; sourceTree = "<group>"; };
-		D36964751A66EC8200B7E08D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D36964771A66ECD400B7E08D /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
+		D3F290801BE3B037003DE290 /* Reach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F290831BE3B037003DE290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F290851BE3B037003DE290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3F290881BE3B037003DE290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F2908A1BE3B037003DE290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F2908D1BE3B037003DE290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F2908F1BE3B037003DE290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F290941BE3B037003DE290 /* ReachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F290981BE3B037003DE290 /* ReachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachTests.swift; sourceTree = "<group>"; };
+		D3F2909A1BE3B037003DE290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F290A31BE3B07B003DE290 /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reach.swift; path = ../../Reach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D369644C1A66EB2300B7E08D /* Frameworks */ = {
+		D3F2907D1BE3B037003DE290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36964761A66EC8200B7E08D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D36964611A66EB2300B7E08D /* Frameworks */ = {
+		D3F290911BE3B037003DE290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,131 +58,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D36964461A66EB2300B7E08D = {
+		D3F290771BE3B037003DE290 = {
 			isa = PBXGroup;
 			children = (
-				D36964511A66EB2300B7E08D /* IJReachability */,
-				D36964741A66EC6E00B7E08D /* Frameworks */,
-				D36964521A66EB2300B7E08D /* Supporting Files */,
-				D36964671A66EB2300B7E08D /* IJReachabilityTests */,
-				D36964501A66EB2300B7E08D /* Products */,
+				D3F290821BE3B037003DE290 /* Reach */,
+				D3F290971BE3B037003DE290 /* ReachTests */,
+				D3F290811BE3B037003DE290 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D36964501A66EB2300B7E08D /* Products */ = {
+		D3F290811BE3B037003DE290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D369644F1A66EB2300B7E08D /* IJReachability.app */,
-				D36964641A66EB2300B7E08D /* IJReachabilityTests.xctest */,
+				D3F290801BE3B037003DE290 /* Reach.app */,
+				D3F290941BE3B037003DE290 /* ReachTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D36964511A66EB2300B7E08D /* IJReachability */ = {
+		D3F290821BE3B037003DE290 /* Reach */ = {
 			isa = PBXGroup;
 			children = (
-				D36964541A66EB2300B7E08D /* AppDelegate.swift */,
-				D36964561A66EB2300B7E08D /* ViewController.swift */,
-				D36964581A66EB2300B7E08D /* Main.storyboard */,
-				D36964771A66ECD400B7E08D /* IJReachability.swift */,
+				D3F290831BE3B037003DE290 /* AppDelegate.swift */,
+				D3F290851BE3B037003DE290 /* ViewController.swift */,
+				D3F290871BE3B037003DE290 /* Main.storyboard */,
+				D3F290A31BE3B07B003DE290 /* Reach.swift */,
+				D3F2908A1BE3B037003DE290 /* Assets.xcassets */,
+				D3F2908C1BE3B037003DE290 /* LaunchScreen.storyboard */,
+				D3F2908F1BE3B037003DE290 /* Info.plist */,
 			);
-			path = IJReachability;
+			path = Reach;
 			sourceTree = "<group>";
 		};
-		D36964521A66EB2300B7E08D /* Supporting Files */ = {
+		D3F290971BE3B037003DE290 /* ReachTests */ = {
 			isa = PBXGroup;
 			children = (
-				D369645B1A66EB2300B7E08D /* Images.xcassets */,
-				D369645D1A66EB2300B7E08D /* LaunchScreen.xib */,
-				D36964531A66EB2300B7E08D /* Info.plist */,
+				D3F290981BE3B037003DE290 /* ReachTests.swift */,
+				D3F2909A1BE3B037003DE290 /* Info.plist */,
 			);
-			name = "Supporting Files";
-			path = IJReachability;
-			sourceTree = "<group>";
-		};
-		D36964671A66EB2300B7E08D /* IJReachabilityTests */ = {
-			isa = PBXGroup;
-			children = (
-				D369646A1A66EB2300B7E08D /* IJReachabilityTests.swift */,
-				D36964681A66EB2300B7E08D /* Supporting Files */,
-			);
-			path = IJReachabilityTests;
-			sourceTree = "<group>";
-		};
-		D36964681A66EB2300B7E08D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D36964691A66EB2300B7E08D /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D36964741A66EC6E00B7E08D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D36964751A66EC8200B7E08D /* SystemConfiguration.framework */,
-			);
-			name = Frameworks;
+			path = ReachTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D369644E1A66EB2300B7E08D /* IJReachability */ = {
+		D3F2907F1BE3B037003DE290 /* Reach */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D369646E1A66EB2300B7E08D /* Build configuration list for PBXNativeTarget "IJReachability" */;
+			buildConfigurationList = D3F2909D1BE3B037003DE290 /* Build configuration list for PBXNativeTarget "Reach" */;
 			buildPhases = (
-				D369644B1A66EB2300B7E08D /* Sources */,
-				D369644C1A66EB2300B7E08D /* Frameworks */,
-				D369644D1A66EB2300B7E08D /* Resources */,
+				D3F2907C1BE3B037003DE290 /* Sources */,
+				D3F2907D1BE3B037003DE290 /* Frameworks */,
+				D3F2907E1BE3B037003DE290 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IJReachability;
-			productName = IJReachability;
-			productReference = D369644F1A66EB2300B7E08D /* IJReachability.app */;
+			name = Reach;
+			productName = Reach;
+			productReference = D3F290801BE3B037003DE290 /* Reach.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D36964631A66EB2300B7E08D /* IJReachabilityTests */ = {
+		D3F290931BE3B037003DE290 /* ReachTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36964711A66EB2300B7E08D /* Build configuration list for PBXNativeTarget "IJReachabilityTests" */;
+			buildConfigurationList = D3F290A01BE3B037003DE290 /* Build configuration list for PBXNativeTarget "ReachTests" */;
 			buildPhases = (
-				D36964601A66EB2300B7E08D /* Sources */,
-				D36964611A66EB2300B7E08D /* Frameworks */,
-				D36964621A66EB2300B7E08D /* Resources */,
+				D3F290901BE3B037003DE290 /* Sources */,
+				D3F290911BE3B037003DE290 /* Frameworks */,
+				D3F290921BE3B037003DE290 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D36964661A66EB2300B7E08D /* PBXTargetDependency */,
+				D3F290961BE3B037003DE290 /* PBXTargetDependency */,
 			);
-			name = IJReachabilityTests;
-			productName = IJReachabilityTests;
-			productReference = D36964641A66EB2300B7E08D /* IJReachabilityTests.xctest */;
+			name = ReachTests;
+			productName = ReachTests;
+			productReference = D3F290941BE3B037003DE290 /* ReachTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D36964471A66EB2300B7E08D /* Project object */ = {
+		D3F290781BE3B037003DE290 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Appex;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BitInvent;
 				TargetAttributes = {
-					D369644E1A66EB2300B7E08D = {
-						CreatedOnToolsVersion = 6.2;
+					D3F2907F1BE3B037003DE290 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
-					D36964631A66EB2300B7E08D = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = D369644E1A66EB2300B7E08D;
+					D3F290931BE3B037003DE290 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = D3F2907F1BE3B037003DE290;
 					};
 				};
 			};
-			buildConfigurationList = D369644A1A66EB2300B7E08D /* Build configuration list for PBXProject "IJReachability" */;
+			buildConfigurationList = D3F2907B1BE3B037003DE290 /* Build configuration list for PBXProject "Reach" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,29 +165,29 @@
 				en,
 				Base,
 			);
-			mainGroup = D36964461A66EB2300B7E08D;
-			productRefGroup = D36964501A66EB2300B7E08D /* Products */;
+			mainGroup = D3F290771BE3B037003DE290;
+			productRefGroup = D3F290811BE3B037003DE290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D369644E1A66EB2300B7E08D /* IJReachability */,
-				D36964631A66EB2300B7E08D /* IJReachabilityTests */,
+				D3F2907F1BE3B037003DE290 /* Reach */,
+				D3F290931BE3B037003DE290 /* ReachTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D369644D1A66EB2300B7E08D /* Resources */ = {
+		D3F2907E1BE3B037003DE290 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D369645A1A66EB2300B7E08D /* Main.storyboard in Resources */,
-				D369645F1A66EB2300B7E08D /* LaunchScreen.xib in Resources */,
-				D369645C1A66EB2300B7E08D /* Images.xcassets in Resources */,
+				D3F2908E1BE3B037003DE290 /* LaunchScreen.storyboard in Resources */,
+				D3F2908B1BE3B037003DE290 /* Assets.xcassets in Resources */,
+				D3F290891BE3B037003DE290 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D36964621A66EB2300B7E08D /* Resources */ = {
+		D3F290921BE3B037003DE290 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,55 +197,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D369644B1A66EB2300B7E08D /* Sources */ = {
+		D3F2907C1BE3B037003DE290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36964781A66ECD400B7E08D /* IJReachability.swift in Sources */,
-				D36964571A66EB2300B7E08D /* ViewController.swift in Sources */,
-				D36964551A66EB2300B7E08D /* AppDelegate.swift in Sources */,
+				D3F290861BE3B037003DE290 /* ViewController.swift in Sources */,
+				D3F290A41BE3B07B003DE290 /* Reach.swift in Sources */,
+				D3F290841BE3B037003DE290 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D36964601A66EB2300B7E08D /* Sources */ = {
+		D3F290901BE3B037003DE290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D369646B1A66EB2300B7E08D /* IJReachabilityTests.swift in Sources */,
+				D3F290991BE3B037003DE290 /* ReachTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D36964661A66EB2300B7E08D /* PBXTargetDependency */ = {
+		D3F290961BE3B037003DE290 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D369644E1A66EB2300B7E08D /* IJReachability */;
-			targetProxy = D36964651A66EB2300B7E08D /* PBXContainerItemProxy */;
+			target = D3F2907F1BE3B037003DE290 /* Reach */;
+			targetProxy = D3F290951BE3B037003DE290 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D36964581A66EB2300B7E08D /* Main.storyboard */ = {
+		D3F290871BE3B037003DE290 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D36964591A66EB2300B7E08D /* Base */,
+				D3F290881BE3B037003DE290 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D369645D1A66EB2300B7E08D /* LaunchScreen.xib */ = {
+		D3F2908C1BE3B037003DE290 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D369645E1A66EB2300B7E08D /* Base */,
+				D3F2908D1BE3B037003DE290 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D369646C1A66EB2300B7E08D /* Debug */ = {
+		D3F2909B1BE3B037003DE290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,23 +264,24 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -317,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		D369646D1A66EB2300B7E08D /* Release */ = {
+		D3F2909C1BE3B037003DE290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,17 +308,19 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,95 +328,87 @@
 			};
 			name = Release;
 		};
-		D369646F1A66EB2300B7E08D /* Debug */ = {
+		D3F2909E1BE3B037003DE290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = IJReachability/Info.plist;
+				INFOPLIST_FILE = Reach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.appex.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitinvent.Reach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		D36964701A66EB2300B7E08D /* Release */ = {
+		D3F2909F1BE3B037003DE290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = IJReachability/Info.plist;
+				INFOPLIST_FILE = Reach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.appex.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitinvent.Reach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		D36964721A66EB2300B7E08D /* Debug */ = {
+		D3F290A11BE3B037003DE290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IJReachabilityTests/Info.plist;
+				INFOPLIST_FILE = ReachTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.appex.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitinvent.ReachTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJReachability.app/IJReachability";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reach.app/Reach";
 			};
 			name = Debug;
 		};
-		D36964731A66EB2300B7E08D /* Release */ = {
+		D3F290A21BE3B037003DE290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IJReachabilityTests/Info.plist;
+				INFOPLIST_FILE = ReachTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.appex.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitinvent.ReachTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJReachability.app/IJReachability";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reach.app/Reach";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D369644A1A66EB2300B7E08D /* Build configuration list for PBXProject "IJReachability" */ = {
+		D3F2907B1BE3B037003DE290 /* Build configuration list for PBXProject "Reach" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D369646C1A66EB2300B7E08D /* Debug */,
-				D369646D1A66EB2300B7E08D /* Release */,
+				D3F2909B1BE3B037003DE290 /* Debug */,
+				D3F2909C1BE3B037003DE290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D369646E1A66EB2300B7E08D /* Build configuration list for PBXNativeTarget "IJReachability" */ = {
+		D3F2909D1BE3B037003DE290 /* Build configuration list for PBXNativeTarget "Reach" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D369646F1A66EB2300B7E08D /* Debug */,
-				D36964701A66EB2300B7E08D /* Release */,
+				D3F2909E1BE3B037003DE290 /* Debug */,
+				D3F2909F1BE3B037003DE290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D36964711A66EB2300B7E08D /* Build configuration list for PBXNativeTarget "IJReachabilityTests" */ = {
+		D3F290A01BE3B037003DE290 /* Build configuration list for PBXNativeTarget "ReachTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D36964721A66EB2300B7E08D /* Debug */,
-				D36964731A66EB2300B7E08D /* Release */,
+				D3F290A11BE3B037003DE290 /* Debug */,
+				D3F290A21BE3B037003DE290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D36964471A66EB2300B7E08D /* Project object */;
+	rootObject = D3F290781BE3B037003DE290 /* Project object */;
 }

@@ -1,15 +1,15 @@
 //
-//  IJReachabilityTests.swift
-//  IJReachabilityTests
+//  ReachTests.swift
+//  ReachTests
 //
-//  Created by Isuru Nanayakkara on 1/14/15.
-//  Copyright (c) 2015 Appex. All rights reserved.
+//  Created by Isuru Nanayakkara on 10/30/15.
+//  Copyright © 2015 BitInvent. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import Reach
 
-class IJReachabilityTests: XCTestCase {
+class ReachTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class IJReachabilityTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
